@@ -1,0 +1,28 @@
+{
+  "name": "sinagibo-parser",
+  "version": "1.0.0",
+  "description": "新浪棋譜(http://duiyi.sina.com.cn/gibo/new_gibo.asp?cur_page=1) 的截取parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sina",
+    "parser",
+    "gibo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKON825/sinagibo-parser.git"
+  },
+  "author": "akon825",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "cheerio": "^0.22.0",
+    "iconv": "^2.2.1",
+    "iconv-lite": "^0.4.15",
+    "moment": "^2.17.1",
+    "request": "^2.79.0"
+  }
+}
